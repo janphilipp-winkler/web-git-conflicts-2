@@ -8,11 +8,19 @@
 }
 
 body {
+  font-family: system-ui;
+  color: rgb(0, 0, 0, 0.9);
   width: min(var(--max-width), 100% - var(--body-padding));
   margin: 0 auto;
   color: var(--color-text);
   font-family: var(--font);
-  width: min(100% - 2rem, 68ch);
+  width: min(100% - 2rem, var(--max-width));
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0, 0.6);
 }
 
 footer {
