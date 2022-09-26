@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
   color: var(--color-text);
   font-family: var(--font);
+  width: min(100% - 2rem, 68ch);
 }
 
 footer {
